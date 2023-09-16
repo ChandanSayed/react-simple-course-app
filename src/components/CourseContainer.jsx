@@ -34,7 +34,7 @@ const CourseContainer = ({ setRemainingHour, setCreditHour, remainingHour, setCo
   }
 
   useEffect(() => {
-    fetch('courses.json')
+    fetch('/courses.json')
       .then(response => response.json())
       .then(data => setCourses(data));
   }, []);
