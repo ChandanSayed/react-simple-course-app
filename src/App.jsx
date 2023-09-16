@@ -15,7 +15,7 @@ function App() {
   return (
     <div className="container max-w-[1470px] mx-auto px-[15px] pb-24">
       <h2 className="text-3xl font-bold mb-8 mt-8 text-center">Course Registration</h2>
-      <div className="grid grid-cols-[1fr_312px] gap-6">
+      <div className="grid grid-cols-1 md:grid-cols-[1fr_312px] gap-6">
         <CourseContainer setRemainingHour={setRemainingHour} setCreditHour={setCreditHour} remainingHour={remainingHour} setCoursesName={setCoursesName} courseNames={courseNames} setPrice={setPrice} setShowToast={setShowToast} setToastValue={setToastValue} />
         <Sidebar remainingHour={remainingHour} creditHour={creditHour} courseNames={courseNames} price={price} />
       </div>

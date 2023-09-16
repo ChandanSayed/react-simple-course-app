@@ -5,7 +5,7 @@ const Sidebar = ({ remainingHour, creditHour, courseNames, price }) => {
         <h3 className="text-lg text-secondary font-medium">Credit Hour Remaining {remainingHour} hr</h3>
         <hr className="my-4" />
         <h3 className="text-primary text-xl mb-5 font-bold">Courses</h3>
-        <ol>
+        <ol className="list-decimal pl-4">
           {courseNames.map((names, i) => (
             <li key={i} className="text-primary text-opacity-60 text-base">
               {names}
