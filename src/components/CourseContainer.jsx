@@ -2,14 +2,22 @@ import React, { useEffect, useState } from 'react';
 import { AiOutlineRead } from 'react-icons/ai';
 import { FaDollarSign } from 'react-icons/fa6';
 
-const CourseContainer = ({ setRemainingHour, setCreditHour, remainingHour, setCoursesName, courseNames, setPrice }) => {
+const CourseContainer = ({ setRemainingHour, setCreditHour, remainingHour, setCoursesName, courseNames, setPrice, setToastValue, setShowToast }) => {
   const [courses, setCourses] = useState([]);
 
   function cartHandler(course) {
     const { price, duration, title } = course;
     const exist = courseNames.find(name => name === title);
-    if (exist) return;
-    if (remainingHour < duration) return;
+    if (exist) {
+      setToastValue('Course Already is in the Cart!');
+      setShowToast(true);
+      return;
+    }
+    if (remainingHour < duration) {
+      setToastValue(`You don't have enough Credit!`);
+      setShowToast(true);
+      return;
+    }
     setCoursesName(prev => {
       return prev.concat(title);
     });
