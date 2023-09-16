@@ -1,5 +1,13 @@
 The 3 features of this App
 
-1. Fetch data from a JSON file
-2. Add Items to the cart
-3. Cart Toast added when user wants to add a course twice and the user does not have enough Credit to add a course
+• Fetch data from a JSON file
+• Add Items to the cart
+• Cart Toast is added when the user wants to add a course twice and the user does not have enough Credit to add a course
+
+State Management of the App
+
+useEffect:-
+I have added useEffect to fetch the data when the App render for the first time.
+
+useState:-
+This one is mostly used state in the app. This one helps to change data, add data to the array. For manipulation of data this state is always handy!
