@@ -13,9 +13,9 @@ const Sidebar = ({ remainingHour, creditHour, courseNames, price }) => {
           ))}
         </ol>
         <hr className="my-4" />
-        <p className="font-medium text-base">Total Credit Hour {creditHour}</p>
+        <p className="font-medium text-base">Total Credit Hour: {creditHour}</p>
         <hr className="my-4" />
-        <p className="font-semibold text-base">Total Price ${price}</p>
+        <p className="font-semibold text-base">Total Price: ${price}</p>
       </div>
     </div>
   );
