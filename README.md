@@ -1,8 +1,8 @@
 The 3 features of this App
 
-• Fetch data from a JSON file
-• Add Items to the cart
-• Cart Toast is added when the user wants to add a course twice and the user does not have enough Credit to add a course
+• Fetch data from a JSON file <br />
+• Add Items to the cart <br />
+• Cart Toast is added when the user wants to add a course twice and the user does not have enough Credit to add a course <br />
 
 State Management of the App
 
