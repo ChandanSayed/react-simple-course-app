@@ -1,0 +1,65 @@
+[
+  {
+    "title": "Python for Beginners",
+    "description": "Learn Python programming fundamentals in 6 weeks with hands-on exercises and projects. Suitable for beginners.",
+    "price": 1500,
+    "duration": 1,
+    "cover_image": "https://chandansayed.github.io/course-image-links/1.png"
+  },
+  {
+    "title": "Java Programming Mastery",
+    "description": "Master Java programming in 8 weeks. Build real-world projects and become a proficient Java developer.",
+    "price": 2500,
+    "duration": 2,
+    "cover_image": "https://chandansayed.github.io/course-image-links/2.png"
+  },
+  {
+    "title": "Web Development Bootcamp",
+    "description": "Become a web developer from scratch in 12 weeks. Learn HTML, CSS, JavaScript, and more.",
+    "price": 10000,
+    "duration": 10,
+    "cover_image": "https://chandansayed.github.io/course-image-links/3.png"
+  },
+  {
+    "title": "Machine Learning with Python",
+    "description": "Explore machine learning and data science in 10 weeks. Hands-on projects using Python and libraries.",
+    "price": 3500,
+    "duration": 5,
+    "cover_image": "https://chandansayed.github.io/course-image-links/4.png"
+  },
+  {
+    "title": "iOS App Development",
+    "description": "Build iOS apps using Swift and Xcode in 8 weeks. Start from scratch and create your own apps.",
+    "price": 5000,
+    "duration": 5,
+    "cover_image": "https://chandansayed.github.io/course-image-links/5.png"
+  },
+  {
+    "title": "Android App Development",
+    "description": "Create Android apps with Kotlin and Android Studio in 9 weeks. Comprehensive hands-on training.",
+    "price": 3500,
+    "duration": 2,
+    "cover_image": "https://chandansayed.github.io/course-image-links/6.png"
+  },
+  {
+    "title": "JavaScript Development",
+    "description": "Master front-end and back-end web development with JavaScript in 14 weeks. Real-world projects included.",
+    "price": 7000,
+    "duration": 5,
+    "cover_image": "https://chandansayed.github.io/course-image-links/7.png"
+  },
+  {
+    "title": "Data Analysis with R",
+    "description": "Analyze data using R programming in 7 weeks. Gain data analysis skills for your career.",
+    "price": 4500,
+    "duration": 5,
+    "cover_image": "https://chandansayed.github.io/course-image-links/8.png"
+  },
+  {
+    "title": "Blockchain Development",
+    "description": "Build blockchain applications with Solidity in 11 weeks. Learn to create secure and decentralized systems.",
+    "price": 6500,
+    "duration": 2,
+    "cover_image": "https://chandansayed.github.io/course-image-links/9.png"
+  }
+]
